@@ -1,0 +1,87 @@
+@media only screen and (max-width:480px) {
+  .container{
+   flex-direction:column;
+  }
+ 
+  .hee{
+   flex-direction:column;
+  }
+  #home{
+   grid-template-columns:auto;
+  }
+  #companies{
+   flex-direction:column;
+  }
+  .ha{
+   flex-direction:column;
+  }
+  .hello{
+   grid-template-columns: auto;
+   
+  }
+  .rahul{
+   flex-direction:column;
+  }
+  #ashu{
+   grid-template-columns: auto;
+  }
+  #about{
+   flex-direction:column;
+  }
+  .amma{
+   grid-template-columns: auto;
+  }
+  .b1{
+   grid-template-columns: auto;
+  }
+  #contact{
+   flex-direction:column;
+  }
+  {
+   display: flex;
+  }
+ }
+ @media only screen and (min-width:760px) and(max-width:1200){
+   .container{
+     flex-direction: row;
+   }
+   .hee{
+     flex-direction: row;
+   }
+   #home{
+   grid-template-rows:auto;
+  }
+  #companies{
+   flex-direction:row;
+  }
+  .ha{
+   flex-direction:row;
+   
+  }
+  .ha span{
+    display: flex;
+  }
+  .hello{
+   grid-template-rows: auto;
+   
+  }
+  .rahul{
+   flex-direction:row;
+  }
+  #ashu{
+   grid-template-rows: auto;
+  }
+  #about{
+   flex-direction:row;
+  }
+  .amma{
+   grid-template-rows: auto;
+  }
+  .b1{
+   grid-template-rows: auto;
+  }
+  #contact{
+   flex-direction:row;
+  }
+
+ }

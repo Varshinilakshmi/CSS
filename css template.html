@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            body{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            header{
+                background-color: violet;
+                padding: 25px;
+                text-align: center;
+                font-size: 30px;
+                color:purple;
+            }
+            nav{
+                float: left;
+                width: 30%;
+                height: 200px;
+                background: #ccc;
+                padding:20px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding:0;
+            }
+            article{
+                float:left;
+                padding: 20px;
+                width: 70%;
+                background-color:aquamarine;
+                height: 300px;
+            }
+            section::after{
+                content:"";
+                display:table;
+                clear:both;
+            }
+            footer{
+                background-color: turquoise;
+                padding:10px;
+                text-align:center;
+                color: white;
+            }
+            @media(max-width:600px){
+                nav, article {
+                    width:100%;
+                    height:auto;
+                }
+            }
+    </style>
+
+    </head>
+    <body>
+    <h2>CSS Layout Float</h2>
+    <p>In this exmple, we created a header, two cloumns/boxes and a footer. </p>
+    <p> Resize the browser window to see the responsive effect</p>
+    <header>
+        <h2>Cities</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">US</a>
+                </li>
+                <li>
+                    <a href="#">Canada</a>
+                </li>
+                <li>
+                    <a href="#">UK</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <h1>US</h1>
+            <p> It has no official language.It has the world's largest Air Force. </p>
+            <h1>Canada</h1>
+            <p>It has the largest moose population in the world.</p>
+            <h1>UK</h1>
+            <p>It is estimated to have over 300 languages spoken in just london.</p>
+        </article>
+        
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+    </html>
