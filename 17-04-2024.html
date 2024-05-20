@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <style>
+        #chinni{
+            width: 500px;
+           position: absolute;
+           top: 50%;
+           left:50%;
+        
+          bottom: 200px;
+        }
+        div{
+            width: 30px;
+            height: 60px;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+            justify-content: center;
+            left: 50%;
+
+        }
+           
+        #box1{
+            width:20px;
+            height: 80px;
+            background-color: red;
+            left:50%;
+            position:fixed;
+            padding:2px;
+            border: 2px;
+            bottom: 50px;
+            animation: audio 2s linear infinite ;
+            
+        }
+        #box2{
+            width:20px;
+            height:40px;
+            background-color: rgb(82, 188, 212);
+            left:52%;
+            position: fixed;
+            padding:2px;
+            border: 2px;
+            bottom: 50px;
+            animation:  audio 1s linear infinite ;
+           
+        }
+        #box3{
+            width: 20px;
+            height: 80px;
+            background-color: rgb(233, 137, 210);
+            left: 54%;
+            position:fixed;
+            padding:2px;                                    
+            border: 2px;
+            bottom: 50px;
+            animation:  audio 1.5s linear infinite ;
+            
+        }
+        #box4{
+            width:20px;
+            height: 40px;
+            background-color: rgb(105, 216, 83);
+            left:56%;
+            position: fixed;
+            padding:2px;
+            border: 2px;
+            bottom: 50px;
+            animation:audio 2s linear infinite ;
+            
+        }
+        
+        #box5{
+            width:20px;
+            height: 80px;
+            background-color: rgb(186, 186, 52);
+            left:58%;
+            position: fixed;
+            padding:2px;
+            border: 2px;
+            bottom: 50px;
+            animation: audio 1.5s linear infinite ;
+            
+        }
+        #box6{
+            width:20px;
+            height: 60px;
+            background-color: rgb(110, 44, 76);
+            left:60%;
+            position: fixed;
+            padding:2px;
+            border: 2px;
+            bottom: 50px;
+            animation: audio 1s linear infinite ;
+           
+        }
+        h1{
+            background-color: aqua;
+            border: 2px solid red;
+        }
+        @keyframes audio {
+            0%{
+                color: rgb(155, 24, 80);
+                background-color: rgb(76, 189, 178);
+                height: 60px;
+               
+                
+            }
+            25%{
+               
+                background-color: purple;
+                height: 80px;
+            }
+            50%{
+                
+                background-color: rgb(134, 182, 194);
+                transform: rotate3d(90deg);
+                
+                 height: 120px;
+            }
+            75%{
+                background-color:green;
+               
+                height: 10px;
+            }
+            100%{
+                background-color:red; 
+               
+                height: 100px;
+            }
+            
+            
+        }
+        body{
+            background-color: pink;
+        }
+       
+        
+        </style>
+    </head>
+    <body>
+        <center><h1>Music play</h1></center>
+        <center><p>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ZrGtCyikea7zD63mif8xUQHaEK&pid=Api&P=0&h=180" alt="" width="500px" height="300px">
+            <br>
+        </p></center>
+        
+        <div id="chinni">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <div id="box6"></div>
+    </div>
+
+    <center>
+    <audio  controls autoplay muted>
+        <source src="./[iSongs.info] 01 - All The Ladies.mp3" >
+    </audio><br></center>
+
+    </body>
+</html>

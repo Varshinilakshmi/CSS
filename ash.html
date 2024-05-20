@@ -1,0 +1,616 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="web page">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Ashwini">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .container{
+        display: flex;
+        gap:25px;
+        padding: 20px;
+        width: 100%;
+        color: white;
+        justify-content: space-evenly;
+      }
+      .hee{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        color: white;
+      }
+      #mee img{
+        border-radius: 50%;
+      }
+      h1{
+        background-color:lightgreen;
+        text-align: center;
+      }
+      #home{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        justify-content: space-around;
+        padding-top: 30px ;
+        padding-block: 30px;
+      }
+      #home img{
+        border-radius: 20%;
+      }
+      #menu img{
+        border-radius:50%;
+        text-align: center;
+      }
+      .hii{
+        
+        background-color: white;
+        border-radius:20%;
+        float:inline-end;
+
+      }
+      #companies{
+        display: flex;
+        justify-content: space-between;
+      }
+      h2{
+       text-align: center;
+      }
+      #mr img{
+        border-radius: 50%;
+      }
+      .ha{
+        display: flex;
+        justify-content: space-around;
+      }
+      .phone img{
+        border-radius:50%;
+      }
+      .main{
+        background-color:green;
+        width: 100%;
+        background-image: linear-gradient(green,blue);
+      }
+      .man{
+        border-radius: 50%;
+        background-color: white;
+      }
+      .hi{
+        background-color: white;
+        border-radius: 10%;
+        width:100%;
+        text-align: center;
+        color: green;
+      }
+      .hello{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: space-around;
+        background-color: rgb(247, 244, 244);
+        
+      }
+      .hello span{
+        justify-content: space-around;
+        width: 100%;
+      }
+      .a1{
+        background-color:white;
+        border-radius: 10%;
+        border: 2px solid white;
+        margin: 10px;
+      }
+      .a1 img{
+        transform: rotateZ(30deg);
+        width: 80px;
+        height: 50px;
+        border-radius: 10%;
+        
+      }
+      .a2{
+        background-color:white;
+        border-radius: 10%; 
+        border: 2px solid white;
+        margin: 10px;
+      }
+      .a2 img{
+        transform: rotateY(30deg);
+        border-radius: 20%;
+        
+      }
+      .a3{
+        background-color:white;
+        border-radius:10% ;
+        margin: 10px;
+        border: 2px solid white;
+      }
+      .a3 img{
+        transform: rotateZ(0deg);
+        border-radius: 20%;
+      }
+      .a4{
+        background-color:white;
+        border-radius: 10%;
+        margin: 10px;
+        border: 2px solid white;
+      
+      }
+      .a4 img{
+        transform: rotateY(30deg);
+        border-radius: 20%;
+      }
+      #menu1 img{
+        border-radius: 60%;
+        text-align:center;
+        width: 200px;
+        height: 200px;
+      }
+      h3{
+        background-color: rgb(219, 129, 144);
+        float: right;
+        text-align: center;
+      }
+      .rahul{
+        border: 10px solid white;
+      }
+      .rahul img{
+        transform: rotateZ(5deg);
+        border-radius: 10%;
+      }
+      .rahul div{
+        background-color:rgb(254, 250, 250);
+        width:100%;
+        height:100%;
+        padding:20px;
+      }
+      table, th, td{
+        border: 1px solid white;
+        border-collapse: collapse;
+        width:100%;
+        height:100%;
+        text-align: left;
+      }
+      tr:nth-child(even){
+        background-color:white;
+      }
+      h3{
+        background-color: lightgreen;
+      }
+      .me{
+        color: green;
+      }
+      .rahul{
+       display:flex;
+       width: 100%;
+      
+       
+      }
+      #ashu{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        text-align: center;
+      }
+      #about{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(247, 243, 243);
+        padding: 20px;
+      }
+      .amma{
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        
+      }
+      .amma div{
+        background-color:white;
+        margin: 2px;
+      
+        
+      }
+      .b1{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        text-align: left;
+      }
+      .b2{
+       margin: 4px;
+       background-color: white;
+      }
+      .b3{
+        margin: 4px;
+        background-color: white;
+      }
+      #contact{
+        background-color: rgb(245, 245, 245);
+        display:flex;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+      footer{
+        background-color:rgb(237, 235, 235);
+        padding: 30px;
+        text-align: center;
+      }
+      .manu1{
+        float: right;
+        padding: 10px;
+        border: 2px solid black;
+      }
+      .rahul{
+        clear: right;
+        padding: 10px;
+      }
+      .p{
+        float: right;
+        background-color: green;
+        width: 400px;
+        text-align: center;
+        font-size:30px;
+      }
+      #menu2 img{
+        border-radius: 50%;
+      }
+      #menu2{
+        background-color: green;
+        width:350px;
+      
+        
+        
+      }
+      .b2{
+        clear:left;
+        padding: 10px;
+      }
+      .p1{
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+      }
+      
+      
+      @media only screen and (max-width:480px) {
+       .container{
+        flex-direction:column;
+       }
+      
+       .hee{
+        flex-direction:column;
+       }
+       #home{
+        grid-template-columns:auto;
+       }
+       #companies{
+        flex-direction:column;
+       }
+       .ha{
+        flex-direction:column;
+       }
+       .hello{
+        grid-template-columns: auto;
+        
+       }
+       .rahul{
+        flex-direction:column;
+       }
+       #ashu{
+        grid-template-columns: auto;
+       }
+       #about{
+        flex-direction:column;
+       }
+       .amma{
+        grid-template-columns: auto;
+       }
+       .b1{
+        grid-template-columns: auto;
+       }
+       #contact{
+        flex-direction:column;
+       }
+       {
+        display: flex;
+       }
+      }
+      @media only screen and (min-width:760px) and(max-width:1200){
+        .container{
+          flex-direction: row;
+        }
+        .hee{
+          flex-direction: row;
+        }
+        #home{
+        grid-template-rows:auto;
+       }
+       #companies{
+        flex-direction:row;
+       }
+       .ha{
+        flex-direction:row;
+        
+       }
+       .ha span{
+         display: flex;
+       }
+       .hello{
+        grid-template-rows: auto;
+        
+       }
+       .rahul{
+        flex-direction:row;
+       }
+       #ashu{
+        grid-template-rows: auto;
+       }
+       #about{
+        flex-direction:row;
+       }
+       .amma{
+        grid-template-rows: auto;
+       }
+       .b1{
+        grid-template-rows: auto;
+       }
+       #contact{
+        flex-direction:row;
+       }
+
+      }
+     
+      
+    </style>
+</head>
+<body>
+  <!-- nav bar creating -->
+    <nav class="main">
+        <div class="container">
+          <div class="hee">
+            <div>Frist</div>
+            <div><a href="#home">HOME</a></div>
+            <div><a href="#about">ABOUT</a></div>
+            <div><a href="#service">SERVICES</a></div>
+            <div><a href="#project">PROJECT</a></div>
+            <div><a href="#contact">CONTACT</a></div>
+            </div>
+            <div class="phone">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.JCcTlSIPIjNBJxnTsGNRFAHaHa&pid=Api&P=0&h=180" alt="" width="25px" height="20px">
+              <span>1202-024-094</span>
+            </div>
+          </div>
+          <div class="ha">
+            <div id="mr">
+              <img src="./IMG/happy-bearded-young-man.jpg" alt="" width="200px" height="200px">
+              <span><h1 class="hii">Hello friends! </h1></span><br>
+              <div class="hi"><h2>I'm available for freelance work</h2> </div>
+              <button style="background-color:green; border-radius:30%; width:100px;">let's login</button>
+            </div>
+            
+            <div class="man">
+              <img src="./IMG/portrait-happy-excited-man-holding-laptop-computer.png" alt="" width="100%" height="200">
+            </div>
+            
+          </div>
+          
+    </nav>
+    <section>
+      <!-- home page create -->
+      <div id="home">
+        <div>
+          <img src="./IMG/couple-working-from-home-together-sofa.jpg" alt="" width="100%" height="100%" >
+        </div>
+        <div >
+          <h1 id="mee">My Story
+            <img src="./IMG/happy-bearded-young-man.jpg" width="60px" height="50px">
+          </h1>
+          <h4>a little bit about Ashwini</h4>
+          <p>This one-page HTML portfolio is provided by TemplateMo. This layout is based on Bootstrap v5.1.3 CSS and JS libraries. Image credits go to Unsplash and FreePik for images used in this page.<br><br>You are allowed to use this template for your websites.You are not allowed to redistribute the template ZIP file on any other website Please contact us for more info. </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- about  page creating -->
+      <div id="about">
+        <div>
+          <table>
+            <tr>
+              <th colspan="2">Information</th>
+            </tr>
+            <tr>
+              <td class="me">Name</td>
+              <td>Ashwini</td>
+            </tr>
+            <tr>
+              <td class="me">Birthday</td>
+              <td>16/04/2002</td>
+            </tr>
+            <tr>
+              <td class="me">Phone</td>
+              <td>+91 987-654-3210</td>
+            </tr>
+            <tr>
+              <td class="me">Email</td>
+              <td>hello@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+        <div id="ashu">
+        <div>
+          <h2>20+</h2>
+          <p style="color: green;">Year of Experiences</p>
+        </div>
+        <div>
+          <h2>245</h2>
+          <p style="color: green;">Happy Costumers</p>
+        </div>
+        <div>
+          <h2>640</h2>
+          <p style="color: green;">Project Finished</p>
+        </div>
+        <div>
+          <h2>72+</h2>
+          <p style="color: green;">Digital Award</p>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section>
+      <!-- creating companies page -->
+      <h2>Companies I've had worked</h2>
+      <div id="companies">
+        
+        <div>
+          <img src="https://tse3.mm.bing.net/th?id=OIP.BupgEB_LP_oGHsbhe30YHwHaHa&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div>
+          <img src="./IMG/Screenshot (37).png" alt="" width="200px" height="200px">
+        </div>
+        <div>
+          <img src="https://seeklogo.com/images/T/tokico-logo-4C7BC13AA8-seeklogo.com.png" alt="" width="200px">
+        </div>
+        <div>
+          <img src="https://tse4.mm.bing.net/th?id=OIP.hDoZvgR8MEXOYxCFuG6JmwAAAA&pid=Api&P=0&h=180" alt="">
+        </div>
+        <div>
+          <img src="https://tse3.mm.bing.net/th?id=OIP.aSP620GSlRbof2iVg8yPqwHaHa&pid=Api&P=0&h=180" alt="">
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- creating service page -->
+      <div id="service">
+        <div><h1 id="menu">
+          <img src="./IMG/handshake-man-woman-after-signing-business-contract-closeup.jpg" alt="" width="20%">SERVICES</h1>
+        </div>
+        <div class="hello">
+          <div class="a1">
+            <h2>Websites  <span><button style="border-radius: 30%; background-color:rgb(107, 225, 107);">$2,400</button></span></h2><hr>
+            <p>You may to explore Too CSS for great collection of free HTML,CSS template.</p>
+            <button style="border-radius: 20%;">Discover More</button>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.YkomPGJbIh6zPibBY6xO-gHaHa&pid=Api&P=0&h=180" width="50px" height="50px">
+            
+          </div>
+          <div class="a2">
+            <h2>Branding <span><button style="border-radius: 20%; background-color:rgb(55, 229, 55);">$1,200</button></span></h2><hr>
+            <p>You can explore more CSS templateMo website by browsing through different tags.</p>
+            <button style="border-radius: 20%;">Discover More</button>
+            <img src="./IMG/Screenshot (38).png" width="80px" height="80px">
+           
+          </div>
+          <div class="a3">
+            <h2>Ecommerce <span><button style="background-color:rgb(55, 229, 55);  border-radius: 20%;">$3,600</button></span></h2><hr>
+            <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
+            <button style="border-radius:20%;">Discover More</button>
+            <img src="./IMG/Screenshot (39).png"  width="80px" height="80px">
+            
+          </div>
+          <div class="a4">
+            <h2>SEO <span><button style="border-radius: 20% ;background-color:rgb(23, 216, 23);">$1,450</button></span></h2><hr>
+            <p>To list your website first on any search engine, we will work together. First Portfolio is one-page CSS Template for free download. </p>
+            <button style="border-radius: 20%;">Discover More</button>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Q2SPaVWSbLWRq4i8FtDZLgHaJN&pid=Api&P=0&h=180" width="80px" height="80px">
+            
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    <section>
+      <!-- creating the project page -->
+      <div id="project">
+        <div id="menu1">
+          <p class="p">
+            <img src="./IMG/white-desk-work-study-aesthetics.jpg" ><b>Project
+            </p></b>
+        </div>
+        <div class="rahul">
+          <div>
+            <p style="color: green;">BRANDING</p>
+            <h4>Zoik agency</h4>
+            <img src="./IMG/projects-20240429T073405Z-001/projects/nikhil-KO4io-eCAXA-unsplash.jpg"  width="100%" height="100%">
+          </div>
+          <div>
+            <p style="color: green;">PHOTOGRAPHY</p>
+            <h4>The Wacth</h4>
+            <img src="./IMG/projects-20240429T073405Z-001/projects/the-5th-IQYR7N67dhM-unsplash.jpg"  width="100%" height="100%">
+          </div>
+          <div>
+            <p style="color:green;">WEBSITE</p>
+            <h4>Polo</h4>
+            <img src="./IMG/projects-20240429T073405Z-001/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" width="100%" height="100%">
+          </div>
+        </div>
+
+      </div>
+    </section>
+   
+    <div id="menu2">
+      <p class="p1">
+      <img src="./IMG/aerial-view-man-using-computer-laptop-wooden-table.jpg"  width="50%">
+      <b>Say Hi</b>
+      </p>
+    </div>
+    <section>
+      <!-- creating the contact page -->
+      <div id="contact">
+        <div class="b1">
+          
+          <div class="b2">
+           <h5>SERVICES</h5>
+           <span style="border-radius: 20%;">Websites</span>  
+           <span style="border-radius: 20%;">Branding</span> <br>
+           <span style="border-radius: 20%;">Ecommerce</span>
+           <span style="border-radius: 20%;">SEO</span> 
+           <h5>STAY CONNECTED</h5>
+           <span><img src="https://tse3.mm.bing.net/th?id=OIP.EhGYQ7HxEvQwe0P7EHauuQHaGC&pid=Api&P=0&h=180" alt="" width="20px"></span>
+           <span><img src="https://tse1.mm.bing.net/th?id=OIP.EmYC49_qiadTdZo1Wc0BhgAAAA&pid=Api&P=0&h=180" alt="" width="20px"></span> 
+           <span><img src="https://tse4.mm.bing.net/th?id=OIP.thA7KaVM-HjmgVQbAVn9TAHaEK&pid=Api&P=0&h=180" alt="" width="20px"></span>
+           <span><img src="https://tse4.mm.bing.net/th?id=OIP.BQk08nwwUlJ1llewv3qIcAHaHa&pid=Api&P=0&h=180" alt="" width="20px"></span> 
+           <h5>START A PROJECT</h5>   
+           <p>I'm  available for freelance projects</p>
+          </div>
+          <div  class="b3">
+            <h5>ABOUT</h5>
+            <p>Ashwini is a professional web developer.Feel free to get in touch with me.</p>
+            <h5>EMAIL</h5>
+            <p>hello@gmail.com</p>
+            <h5>CALL</h5>
+            <p>120-024-2094</p>
+          </div>
+        </div>
+        <div class="amma">
+          <div style="grid-column: 1/3;">Name</div>
+          <div style="grid-column: 3/7;">Email address</div>
+          <div>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.bhfiXXKAFuqRi1NcNeeCnAHaHa&pid=Api&P=0&h=180" alt="" width="20px">
+            <p>Websites</p>
+          </div>
+          <div>
+            <img src="./IMG/Screenshot (38).png" alt="" width="20px">
+            <p>Branding</p>
+          </div>
+          <div>
+            <img src="./IMG/Screenshot (39).png" alt="" width="20px">
+            <p>Ecommerce</p>
+          </div>
+          <div>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.zXM6ls3Jnbf62uSw3kK65wHaHa&pid=Api&P=0&h=180" alt="" width="20px">
+            <p>SEO</p>
+          </div>
+          <div style="grid-column: 1/7;">Tell me about the project
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+          </div>
+          <button style="border-radius: 20%; background-color: lightgreen;float:right;">Send</button>
+          
+
+        </div>
+      </div>
+    </section>
+    <footer>
+    Thank you for the project
+    </footer>
+</body>
+</html>
